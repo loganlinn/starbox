@@ -22,26 +22,14 @@ jobs:
         run: |
           curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
           bin/hub api /users/$REPOSITORY_OWNER/starred > starred.json
+ 
       - name: Commit changes
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          git add starred.json
-          git status
-          
-          needs_push="false"
-          if [ -n "$(git status --porcelain 2>/dev/null| grep "^M")" ]; then
-            git commit -a -m "🌠 update starred.json"
-            needs_push="true"
-          fi
-          echo "name=needs_push::$needs_push"
-          echo "::set-output name=needs_push::$needs_push"
-
-          git log
+          git commit -a -m "🌠 update starred.json"
       - name: Push changes
-        if: ${{ steps.commit.needs_push }}
         uses: ad-m/github-push-action@v0.5.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
