@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "0 8 * * *"
   check_run:
-    - types: [created, rerequested]
+    types: [created, rerequested]
 
 jobs:
   fetch:
