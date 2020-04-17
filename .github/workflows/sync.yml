@@ -5,8 +5,9 @@ name: Sync
 on:
   schedule:
     - cron: "0 8 * * *"
-  check_run:
-    types: [created, rerequested]
+  push:
+    branches:
+      - master
 
 jobs:
   fetch:
