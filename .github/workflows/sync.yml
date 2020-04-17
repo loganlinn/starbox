@@ -13,15 +13,34 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
 
-      - name: Run a multi-line script
+      - name: Fetch Stars
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           REPOSITORY_OWNER: ${{github.repository_owner}}
         run: |
           curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
-          api() { bin/hub api -H 'accept: application/vnd.github.inertia-preview+json' "$@"; }
-          api /users/$REPOSITORY_OWNER/starred > starred.json
+          bin/hub api /users/$REPOSITORY_OWNER/starred > starred.json
+      - name: Commit changes
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add starred.json
+          if [ -n "$(git status --porcelain 2>/dev/null| grep "^M")" ]; then
+            git commit -a -m "🌠 update starred.json"
+            echo "::set-output name=needs_push::true"
+          else
+            echo "::set-output name=needs_push::false"
+          fi
+
+      - name: Push changes
+        if: ${{ steps.commit.needs_push }}
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v1
         with:
