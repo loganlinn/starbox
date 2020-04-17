@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Sync
+
+on:
+  schedule:
+  - cron: "0 8 * * *"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Run a multi-line script
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          REPOSITORY_OWNER: ${{github.repository_owner}}
+        run: |
+          curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
+          api() { bin/hub api -H 'accept: application/vnd.github.inertia-preview+json' "$@"; }
+          api /users/$REPOSITORY_OWNER/starred > starred.json
+
+      - uses: actions/upload-artifact@v1
+        with:
+          name: starred.json
+          path: starred.json
