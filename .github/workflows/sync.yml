@@ -29,13 +29,17 @@ jobs:
           git config --local user.name "GitHub Action"
           
           git add starred.json
+          git status
+          
+          needs_push="false"
           if [ -n "$(git status --porcelain 2>/dev/null| grep "^M")" ]; then
             git commit -a -m "🌠 update starred.json"
-            echo "::set-output name=needs_push::true"
-          else
-            echo "::set-output name=needs_push::false"
+            needs_push="true"
           fi
+          echo "name=needs_push::$needs_push"
+          echo "::set-output name=needs_push::$needs_push"
 
+          git log
       - name: Push changes
         if: ${{ steps.commit.needs_push }}
         uses: ad-m/github-push-action@v0.5.0
