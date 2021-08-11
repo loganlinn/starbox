@@ -66,7 +66,7 @@
     "releases_url": "https://api.github.com/repos/cnabio/cnab-spec/releases{/id}",
     "deployments_url": "https://api.github.com/repos/cnabio/cnab-spec/deployments",
     "created_at": "2018-10-25T18:44:08Z",
-    "updated_at": "2021-08-10T03:07:21Z",
+    "updated_at": "2021-08-10T09:41:00Z",
     "pushed_at": "2021-06-13T08:36:07Z",
     "git_url": "git://github.com/cnabio/cnab-spec.git",
     "ssh_url": "git@github.com:cnabio/cnab-spec.git",
@@ -74,8 +74,8 @@
     "svn_url": "https://github.com/cnabio/cnab-spec",
     "homepage": "https://cnab.io",
     "size": 1908,
-    "stargazers_count": 818,
-    "watchers_count": 818,
+    "stargazers_count": 819,
+    "watchers_count": 819,
     "language": "Shell",
     "has_issues": true,
     "has_projects": true,
@@ -96,11 +96,13 @@
     },
     "forks": 101,
     "open_issues": 27,
-    "watchers": 818,
+    "watchers": 819,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -171,7 +173,7 @@
     "releases_url": "https://api.github.com/repos/reactive-tech/kubegres/releases{/id}",
     "deployments_url": "https://api.github.com/repos/reactive-tech/kubegres/deployments",
     "created_at": "2021-04-12T20:51:59Z",
-    "updated_at": "2021-08-10T03:54:37Z",
+    "updated_at": "2021-08-11T03:43:37Z",
     "pushed_at": "2021-07-23T11:48:33Z",
     "git_url": "git://github.com/reactive-tech/kubegres.git",
     "ssh_url": "git@github.com:reactive-tech/kubegres.git",
@@ -179,8 +181,8 @@
     "svn_url": "https://github.com/reactive-tech/kubegres",
     "homepage": null,
     "size": 317,
-    "stargazers_count": 281,
-    "watchers_count": 281,
+    "stargazers_count": 283,
+    "watchers_count": 283,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
@@ -201,11 +203,13 @@
     },
     "forks": 10,
     "open_issues": 7,
-    "watchers": 281,
+    "watchers": 283,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -277,7 +281,7 @@
     "deployments_url": "https://api.github.com/repos/Hejsil/zig-clap/deployments",
     "created_at": "2018-03-14T13:06:16Z",
     "updated_at": "2021-08-08T03:59:23Z",
-    "pushed_at": "2021-07-25T22:22:22Z",
+    "pushed_at": "2021-08-11T05:55:15Z",
     "git_url": "git://github.com/Hejsil/zig-clap.git",
     "ssh_url": "git@github.com:Hejsil/zig-clap.git",
     "clone_url": "https://github.com/Hejsil/zig-clap.git",
@@ -292,7 +296,7 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 14,
+    "forks_count": 15,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -304,13 +308,15 @@
       "url": "https://api.github.com/licenses/unlicense",
       "node_id": "MDc6TGljZW5zZTE1"
     },
-    "forks": 14,
+    "forks": 15,
     "open_issues": 3,
     "watchers": 155,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -381,16 +387,16 @@
     "releases_url": "https://api.github.com/repos/growthbook/growthbook/releases{/id}",
     "deployments_url": "https://api.github.com/repos/growthbook/growthbook/deployments",
     "created_at": "2021-05-07T23:11:51Z",
-    "updated_at": "2021-08-10T07:54:37Z",
-    "pushed_at": "2021-08-09T18:15:28Z",
+    "updated_at": "2021-08-11T07:45:47Z",
+    "pushed_at": "2021-08-11T06:14:09Z",
     "git_url": "git://github.com/growthbook/growthbook.git",
     "ssh_url": "git@github.com:growthbook/growthbook.git",
     "clone_url": "https://github.com/growthbook/growthbook.git",
     "svn_url": "https://github.com/growthbook/growthbook",
     "homepage": "https://www.growthbook.io",
-    "size": 2850,
-    "stargazers_count": 913,
-    "watchers_count": 913,
+    "size": 2898,
+    "stargazers_count": 953,
+    "watchers_count": 953,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -401,7 +407,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 3,
+    "open_issues_count": 7,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -410,12 +416,14 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "forks": 18,
-    "open_issues": 3,
-    "watchers": 913,
+    "open_issues": 7,
+    "watchers": 953,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -486,14 +494,14 @@
     "releases_url": "https://api.github.com/repos/GoogleContainerTools/kpt-functions-catalog/releases{/id}",
     "deployments_url": "https://api.github.com/repos/GoogleContainerTools/kpt-functions-catalog/deployments",
     "created_at": "2019-12-13T22:26:24Z",
-    "updated_at": "2021-08-10T00:31:41Z",
-    "pushed_at": "2021-08-10T06:35:38Z",
+    "updated_at": "2021-08-11T00:20:56Z",
+    "pushed_at": "2021-08-11T00:20:57Z",
     "git_url": "git://github.com/GoogleContainerTools/kpt-functions-catalog.git",
     "ssh_url": "git@github.com:GoogleContainerTools/kpt-functions-catalog.git",
     "clone_url": "https://github.com/GoogleContainerTools/kpt-functions-catalog.git",
     "svn_url": "https://github.com/GoogleContainerTools/kpt-functions-catalog",
     "homepage": "https://catalog.kpt.dev",
-    "size": 25214,
+    "size": 25350,
     "stargazers_count": 36,
     "watchers_count": 36,
     "language": "TypeScript",
@@ -520,7 +528,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -591,7 +601,7 @@
     "releases_url": "https://api.github.com/repos/bastienwirtz/homer/releases{/id}",
     "deployments_url": "https://api.github.com/repos/bastienwirtz/homer/deployments",
     "created_at": "2018-06-14T04:57:54Z",
-    "updated_at": "2021-08-10T05:40:57Z",
+    "updated_at": "2021-08-11T04:56:07Z",
     "pushed_at": "2021-08-08T09:18:48Z",
     "git_url": "git://github.com/bastienwirtz/homer.git",
     "ssh_url": "git@github.com:bastienwirtz/homer.git",
@@ -599,8 +609,8 @@
     "svn_url": "https://github.com/bastienwirtz/homer",
     "homepage": null,
     "size": 3668,
-    "stargazers_count": 2340,
-    "watchers_count": 2340,
+    "stargazers_count": 2344,
+    "watchers_count": 2344,
     "language": "Vue",
     "has_issues": true,
     "has_projects": false,
@@ -621,11 +631,13 @@
     },
     "forks": 216,
     "open_issues": 58,
-    "watchers": 2340,
+    "watchers": 2344,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -696,7 +708,7 @@
     "releases_url": "https://api.github.com/repos/phiresky/sql.js-httpvfs/releases{/id}",
     "deployments_url": "https://api.github.com/repos/phiresky/sql.js-httpvfs/deployments",
     "created_at": "2021-05-02T17:04:21Z",
-    "updated_at": "2021-08-09T21:08:26Z",
+    "updated_at": "2021-08-10T23:54:12Z",
     "pushed_at": "2021-05-23T09:34:09Z",
     "git_url": "git://github.com/phiresky/sql.js-httpvfs.git",
     "ssh_url": "git@github.com:phiresky/sql.js-httpvfs.git",
@@ -704,15 +716,15 @@
     "svn_url": "https://github.com/phiresky/sql.js-httpvfs",
     "homepage": "",
     "size": 507,
-    "stargazers_count": 2218,
-    "watchers_count": 2218,
+    "stargazers_count": 2223,
+    "watchers_count": 2223,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 49,
+    "forks_count": 50,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -724,13 +736,15 @@
       "url": "https://api.github.com/licenses/apache-2.0",
       "node_id": "MDc6TGljZW5zZTI="
     },
-    "forks": 49,
+    "forks": 50,
     "open_issues": 5,
-    "watchers": 2218,
+    "watchers": 2223,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -801,14 +815,14 @@
     "releases_url": "https://api.github.com/repos/nestjs/bull/releases{/id}",
     "deployments_url": "https://api.github.com/repos/nestjs/bull/deployments",
     "created_at": "2018-02-25T00:32:55Z",
-    "updated_at": "2021-08-09T23:20:39Z",
-    "pushed_at": "2021-08-09T23:20:38Z",
+    "updated_at": "2021-08-10T19:45:08Z",
+    "pushed_at": "2021-08-10T19:45:06Z",
     "git_url": "git://github.com/nestjs/bull.git",
     "ssh_url": "git@github.com:nestjs/bull.git",
     "clone_url": "https://github.com/nestjs/bull.git",
     "svn_url": "https://github.com/nestjs/bull",
     "homepage": "https://nestjs.com",
-    "size": 7131,
+    "size": 7251,
     "stargazers_count": 385,
     "watchers_count": 385,
     "language": "TypeScript",
@@ -821,7 +835,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 5,
+    "open_issues_count": 7,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -830,12 +844,14 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "forks": 55,
-    "open_issues": 5,
+    "open_issues": 7,
     "watchers": 385,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -940,7 +956,9 @@
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1045,7 +1063,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1116,16 +1136,16 @@
     "releases_url": "https://api.github.com/repos/TomWright/dasel/releases{/id}",
     "deployments_url": "https://api.github.com/repos/TomWright/dasel/deployments",
     "created_at": "2020-09-22T10:33:56Z",
-    "updated_at": "2021-08-09T20:38:11Z",
-    "pushed_at": "2021-08-09T08:33:31Z",
+    "updated_at": "2021-08-10T12:05:05Z",
+    "pushed_at": "2021-08-11T07:58:32Z",
     "git_url": "git://github.com/TomWright/dasel.git",
     "ssh_url": "git@github.com:TomWright/dasel.git",
     "clone_url": "https://github.com/TomWright/dasel.git",
     "svn_url": "https://github.com/TomWright/dasel",
     "homepage": "https://daseldocs.tomwright.me",
     "size": 5939,
-    "stargazers_count": 1174,
-    "watchers_count": 1174,
+    "stargazers_count": 1175,
+    "watchers_count": 1175,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
@@ -1136,7 +1156,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 6,
+    "open_issues_count": 7,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -1145,12 +1165,14 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "forks": 25,
-    "open_issues": 6,
-    "watchers": 1174,
+    "open_issues": 7,
+    "watchers": 1175,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1221,7 +1243,7 @@
     "releases_url": "https://api.github.com/repos/flant/shell-operator/releases{/id}",
     "deployments_url": "https://api.github.com/repos/flant/shell-operator/deployments",
     "created_at": "2019-03-22T08:55:13Z",
-    "updated_at": "2021-08-09T10:01:57Z",
+    "updated_at": "2021-08-11T04:50:00Z",
     "pushed_at": "2021-07-27T19:07:46Z",
     "git_url": "git://github.com/flant/shell-operator.git",
     "ssh_url": "git@github.com:flant/shell-operator.git",
@@ -1229,8 +1251,8 @@
     "svn_url": "https://github.com/flant/shell-operator",
     "homepage": "",
     "size": 1165,
-    "stargazers_count": 1358,
-    "watchers_count": 1358,
+    "stargazers_count": 1359,
+    "watchers_count": 1359,
     "language": "Go",
     "has_issues": true,
     "has_projects": false,
@@ -1251,11 +1273,13 @@
     },
     "forks": 118,
     "open_issues": 21,
-    "watchers": 1358,
+    "watchers": 1359,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1326,7 +1350,7 @@
     "releases_url": "https://api.github.com/repos/external-secrets/kubernetes-external-secrets/releases{/id}",
     "deployments_url": "https://api.github.com/repos/external-secrets/kubernetes-external-secrets/deployments",
     "created_at": "2018-12-12T18:26:36Z",
-    "updated_at": "2021-08-10T04:27:12Z",
+    "updated_at": "2021-08-11T04:49:38Z",
     "pushed_at": "2021-08-09T12:08:00Z",
     "git_url": "git://github.com/external-secrets/kubernetes-external-secrets.git",
     "ssh_url": "git@github.com:external-secrets/kubernetes-external-secrets.git",
@@ -1342,11 +1366,11 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": true,
-    "forks_count": 305,
+    "forks_count": 306,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 54,
+    "open_issues_count": 55,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -1354,13 +1378,15 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 305,
-    "open_issues": 54,
+    "forks": 306,
+    "open_issues": 55,
     "watchers": 2075,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1465,7 +1491,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1537,13 +1565,13 @@
     "deployments_url": "https://api.github.com/repos/open-telemetry/opentelemetry-operator/deployments",
     "created_at": "2019-12-18T21:39:22Z",
     "updated_at": "2021-08-09T11:49:43Z",
-    "pushed_at": "2021-08-09T11:39:43Z",
+    "pushed_at": "2021-08-11T06:11:36Z",
     "git_url": "git://github.com/open-telemetry/opentelemetry-operator.git",
     "ssh_url": "git@github.com:open-telemetry/opentelemetry-operator.git",
     "clone_url": "https://github.com/open-telemetry/opentelemetry-operator.git",
     "svn_url": "https://github.com/open-telemetry/opentelemetry-operator",
     "homepage": "",
-    "size": 939,
+    "size": 974,
     "stargazers_count": 176,
     "watchers_count": 176,
     "language": "Go",
@@ -1556,7 +1584,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 17,
+    "open_issues_count": 18,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -1565,12 +1593,14 @@
       "node_id": "MDc6TGljZW5zZTI="
     },
     "forks": 65,
-    "open_issues": 17,
+    "open_issues": 18,
     "watchers": 176,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1675,7 +1705,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1780,7 +1812,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1851,7 +1885,7 @@
     "releases_url": "https://api.github.com/repos/adr/madr/releases{/id}",
     "deployments_url": "https://api.github.com/repos/adr/madr/deployments",
     "created_at": "2017-07-18T08:37:12Z",
-    "updated_at": "2021-08-06T21:59:24Z",
+    "updated_at": "2021-08-11T00:51:59Z",
     "pushed_at": "2021-05-29T19:55:44Z",
     "git_url": "git://github.com/adr/madr.git",
     "ssh_url": "git@github.com:adr/madr.git",
@@ -1859,8 +1893,8 @@
     "svn_url": "https://github.com/adr/madr",
     "homepage": "https://adr.github.io/madr/",
     "size": 127,
-    "stargazers_count": 622,
-    "watchers_count": 622,
+    "stargazers_count": 623,
+    "watchers_count": 623,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -1881,11 +1915,13 @@
     },
     "forks": 221,
     "open_issues": 15,
-    "watchers": 622,
+    "watchers": 623,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -1990,7 +2026,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2095,7 +2133,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2194,7 +2234,9 @@
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2299,7 +2341,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2404,7 +2448,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2509,7 +2555,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2580,27 +2628,27 @@
     "releases_url": "https://api.github.com/repos/awslabs/karpenter/releases{/id}",
     "deployments_url": "https://api.github.com/repos/awslabs/karpenter/deployments",
     "created_at": "2020-07-09T22:04:22Z",
-    "updated_at": "2021-08-09T23:55:00Z",
-    "pushed_at": "2021-08-10T04:44:12Z",
+    "updated_at": "2021-08-11T07:25:35Z",
+    "pushed_at": "2021-08-11T01:24:59Z",
     "git_url": "git://github.com/awslabs/karpenter.git",
     "ssh_url": "git@github.com:awslabs/karpenter.git",
     "clone_url": "https://github.com/awslabs/karpenter.git",
     "svn_url": "https://github.com/awslabs/karpenter",
     "homepage": "",
-    "size": 5721,
-    "stargazers_count": 663,
-    "watchers_count": 663,
+    "size": 5730,
+    "stargazers_count": 666,
+    "watchers_count": 666,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": true,
-    "forks_count": 52,
+    "forks_count": 53,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 56,
+    "open_issues_count": 54,
     "license": {
       "key": "other",
       "name": "Other",
@@ -2608,13 +2656,15 @@
       "url": null,
       "node_id": "MDc6TGljZW5zZTA="
     },
-    "forks": 52,
-    "open_issues": 56,
-    "watchers": 663,
+    "forks": 53,
+    "open_issues": 54,
+    "watchers": 666,
     "default_branch": "main",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2685,7 +2735,7 @@
     "releases_url": "https://api.github.com/repos/nevalla/lens-resource-map-extension/releases{/id}",
     "deployments_url": "https://api.github.com/repos/nevalla/lens-resource-map-extension/deployments",
     "created_at": "2020-12-07T10:18:57Z",
-    "updated_at": "2021-08-08T22:03:01Z",
+    "updated_at": "2021-08-10T10:52:05Z",
     "pushed_at": "2021-06-30T19:12:28Z",
     "git_url": "git://github.com/nevalla/lens-resource-map-extension.git",
     "ssh_url": "git@github.com:nevalla/lens-resource-map-extension.git",
@@ -2693,8 +2743,8 @@
     "svn_url": "https://github.com/nevalla/lens-resource-map-extension",
     "homepage": "",
     "size": 1482,
-    "stargazers_count": 126,
-    "watchers_count": 126,
+    "stargazers_count": 127,
+    "watchers_count": 127,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -2715,11 +2765,13 @@
     },
     "forks": 6,
     "open_issues": 4,
-    "watchers": 126,
+    "watchers": 127,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2818,7 +2870,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -2889,7 +2943,7 @@
     "releases_url": "https://api.github.com/repos/terraform-aws-modules/terraform-aws-atlantis/releases{/id}",
     "deployments_url": "https://api.github.com/repos/terraform-aws-modules/terraform-aws-atlantis/deployments",
     "created_at": "2018-05-25T17:13:14Z",
-    "updated_at": "2021-08-07T23:02:53Z",
+    "updated_at": "2021-08-10T17:27:16Z",
     "pushed_at": "2021-07-28T19:08:21Z",
     "git_url": "git://github.com/terraform-aws-modules/terraform-aws-atlantis.git",
     "ssh_url": "git@github.com:terraform-aws-modules/terraform-aws-atlantis.git",
@@ -2897,8 +2951,8 @@
     "svn_url": "https://github.com/terraform-aws-modules/terraform-aws-atlantis",
     "homepage": "https://registry.terraform.io/modules/terraform-aws-modules/atlantis/aws",
     "size": 312,
-    "stargazers_count": 295,
-    "watchers_count": 295,
+    "stargazers_count": 296,
+    "watchers_count": 296,
     "language": "HCL",
     "has_issues": true,
     "has_projects": false,
@@ -2909,7 +2963,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 31,
+    "open_issues_count": 30,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -2918,12 +2972,14 @@
       "node_id": "MDc6TGljZW5zZTI="
     },
     "forks": 194,
-    "open_issues": 31,
-    "watchers": 295,
+    "open_issues": 30,
+    "watchers": 296,
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -3028,7 +3084,9 @@
     "default_branch": "master",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   },
@@ -3099,16 +3157,16 @@
     "releases_url": "https://api.github.com/repos/bottlerocket-os/bottlerocket/releases{/id}",
     "deployments_url": "https://api.github.com/repos/bottlerocket-os/bottlerocket/deployments",
     "created_at": "2019-04-03T23:28:55Z",
-    "updated_at": "2021-08-10T04:22:25Z",
-    "pushed_at": "2021-08-09T23:51:09Z",
+    "updated_at": "2021-08-10T21:20:40Z",
+    "pushed_at": "2021-08-10T21:29:13Z",
     "git_url": "git://github.com/bottlerocket-os/bottlerocket.git",
     "ssh_url": "git@github.com:bottlerocket-os/bottlerocket.git",
     "clone_url": "https://github.com/bottlerocket-os/bottlerocket.git",
     "svn_url": "https://github.com/bottlerocket-os/bottlerocket",
     "homepage": "",
-    "size": 6185,
-    "stargazers_count": 5621,
-    "watchers_count": 5621,
+    "size": 6231,
+    "stargazers_count": 5622,
+    "watchers_count": 5622,
     "language": "Rust",
     "has_issues": true,
     "has_projects": true,
@@ -3119,7 +3177,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 135,
+    "open_issues_count": 136,
     "license": {
       "key": "other",
       "name": "Other",
@@ -3128,12 +3186,14 @@
       "node_id": "MDc6TGljZW5zZTA="
     },
     "forks": 257,
-    "open_issues": 135,
-    "watchers": 5621,
+    "open_issues": 136,
+    "watchers": 5622,
     "default_branch": "develop",
     "permissions": {
       "admin": false,
+      "maintain": false,
       "push": false,
+      "triage": false,
       "pull": false
     }
   }
